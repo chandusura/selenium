@@ -4,7 +4,7 @@ import time
 import os
 
 # Load the local HTML file
-file_path = 'file://' + os.path.abspath("calculator.html")
+file_path = 'file://' + os.path.abspath("Addition_calculator.html")
 
 # Initialize the Chrome driver
 driver = webdriver.Chrome()
@@ -29,7 +29,7 @@ try:
 
     # Optional: Check if the result is correct
     assert result == "Result: 35", "Test Failed!"
-    print("Test Passed ✅")
+    print("Test Passed ")
 
 finally:
     time.sleep(5)

@@ -3,7 +3,7 @@ const path = require('path');
 
 (async function testCalculator() {
   // Get the local file URL
-  const filePath = 'file://' + path.resolve('calculator.html');
+  const filePath = 'file://' + path.resolve('Addition_calculator.html');
 
   // Launch browser
   let driver = await new Builder().forBrowser('chrome').build();
